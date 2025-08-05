@@ -11,6 +11,7 @@ if "" in fridge_content:
 
 
 def list_change(change_list,frig):
+    print(f"your current list is {change_list}")
     print("would you like to 'remove' an item from the list or 'add' one to it?")
     change_type = input().lower()
     if change_type == "remove":
@@ -98,6 +99,7 @@ def main_fridge_input(shop_list,fridge):
 #            break
 #
 #
+
 
 
 
